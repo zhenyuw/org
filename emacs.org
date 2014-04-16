@@ -1,6 +1,7 @@
 
 * emacs manual info reading project
-** Important General Concepts
+
+** Important General Concepts [6/6]
 *** DONE Screen
 *** DONE User Input
 
@@ -15,8 +16,9 @@
     
 *** DONE Entering Emacs
 *** DONE Exiting
-** Fundamental Editing Commands
-*** DONE Basic
+
+** Fundamental Editing Commands [1/4]
+*** DONE Basic [11/11]
 **** DONE Inserting Text
 
      'quoted-insert' : 'C-q xxx' to insert non-graphics character
@@ -83,7 +85,7 @@
      'C-u' is a repeat method
      'C-x z' : repeat last command, more 'z' more repeat
 
-*** TODO Minibuffer
+*** TODO Minibuffer [0/8]
 **** TODO Basic Minibuffer
 **** TODO Minibuffer File
 **** TODO Minibuffer Edit
@@ -92,8 +94,8 @@
 **** TODO Repetition
 **** TODO Passwords
 **** TODO Yes or No Prompts
-*** TODO M-x
-*** TODO Help
+*** TODO M-x [0/0]
+*** TODO Help [0/0]
 
 
 * emacs lisp intro
