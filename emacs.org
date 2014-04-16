@@ -1,0 +1,112 @@
+
+* emacs manual info reading project
+** Important General Concepts
+*** DONE Screen
+*** DONE User Input
+
+    Even input cursor shows as block in active buffer, you should think
+    input position is before cursor character when inserting.
+
+*** DONE Keys
+*** DONE Commands
+
+    Commands are real emacs function that take actions.
+    Keys are bound to commands to take effect.
+    
+*** DONE Entering Emacs
+*** DONE Exiting
+** Fundamental Editing Commands
+*** DONE Basic
+**** DONE Inserting Text
+
+     'quoted-insert' : 'C-q xxx' to insert non-graphics character
+     'C-x 8 <ret>' : enter unicode 
+
+**** DONE Moving Point
+
+     'C-f', 'C-b', 'C-n', 'C-p', 'C-a', 'C-e'
+     'M-f', 'M-b'
+     'M-r' : cycle in center-left, top-left, bottem-left position
+     'M-<', 'M->'
+     'C-v', 'M-v'
+     'M-g M-g' : 'goto-line'
+     
+**** DONE Erasing
+
+     <backspace> : <DEL> in manual, backward delete, also delete region
+     <delete> : forward delete, also delete region
+     'C-d' : forward delete
+     'C-k'
+     'M-d' : forward word delete
+     'M-<backspace>" : backward word delete
+
+**** DONE Basic Undo
+
+     'C-/', or 'C-x u', 'C-_'
+
+**** DONE Files
+     
+     'C-x C-f' : 'find-file'
+     'C-x C-s' : 'save-buffer'
+
+**** DONE Help
+
+     'C-h ...'
+     
+**** DONE Blank lines
+
+     'C-o' : 'open-line', insert blank line
+     'C-x C-o' : remove all but one line, or remove current blank line if point is on blank line
+
+**** DONE Continuation lines
+**** DONE Position Info
+
+     'M-x what-line' : display line info
+     'M-x line-number-mode', 'M-x column-number-mode' : toggle line/column display in mode line
+     'M-=' : display word info in region
+     'C-u M-=" : display word info in whole buffer
+     'M-x count-words' : display word info in buffer or active region
+     'C-x =' : display character info after position
+     'M-x hl-line-mode' : toggle highlight line mode
+     'M-x size-indication-mode' : toggle buffer size in mode line
+
+**** DONE Arguments
+
+     'M-<number> command' : pass number argument to command
+     'C-u <number> command'
+     'C-u command' : four times
+     'C-u C-u command' : sixteen times
+     'C-u <number> C-u <number>' : middle C-u terminate prefix argument
+
+**** DONE Repeating
+
+     'C-u' is a repeat method
+     'C-x z' : repeat last command, more 'z' more repeat
+
+*** TODO Minibuffer
+**** TODO Basic Minibuffer
+**** TODO Minibuffer File
+**** TODO Minibuffer Edit
+**** TODO Completion
+**** TODO Minibuffer History
+**** TODO Repetition
+**** TODO Passwords
+**** TODO Yes or No Prompts
+*** TODO M-x
+*** TODO Help
+
+
+* emacs lisp intro
+** Preface
+** List Processing
+*** TODO Lisp Lists
+*** TODO Run a Program
+*** TODO Making Errors
+*** TODO Names & Definitions
+*** TODO Lisp Interpreter
+*** TODO Evaluation
+*** TODO Variables
+*** TODO Arguments
+*** TODO set & setq
+*** TODO Summary
+*** TODO Error Message Exercises

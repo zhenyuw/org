@@ -1,0 +1,12 @@
+
+* Learning Python
+** core object
+*** TODO list
+*** TODO dictionary
+*** TODO string
+*** TODO tuple
+*** TODO set
+** statement and function
+** OO class
+** modules
+** functional programming
