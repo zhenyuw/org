@@ -17,7 +17,7 @@
 *** DONE Entering Emacs
 *** DONE Exiting
 
-** Fundamental Editing Commands [1/4]
+** Fundamental Editing Commands [3/5]
 *** DONE Basic [11/11]
 **** DONE Inserting Text
 
@@ -85,22 +85,66 @@
      'C-u' is a repeat method
      'C-x z' : repeat last command, more 'z' more repeat
 
-*** TODO Minibuffer [0/8]
-**** TODO Basic Minibuffer
-**** TODO Minibuffer File
-**** TODO Minibuffer Edit
-**** TODO Completion
-**** TODO Minibuffer History
-**** TODO Repetition
-**** TODO Passwords
-**** TODO Yes or No Prompts
-*** TODO M-x [0/0]
-*** TODO Help [0/0]
+*** DONE Minibuffer [8/8]
+**** DONE Basic Minibuffer
+**** DONE Minibuffer File
+**** DONE Minibuffer Edit
+**** DONE Completion [5/5]
+***** DONE Completion Example
+***** DONE Completion Commands
 
+      After using <TAB> for completion, 'M-v'/<PageUp> could enter completion list window,
+      then can select options, <Ret> will select it.
+
+***** DONE Completion Exit
+***** DONE Completion Styles
+***** DONE Completion Options
+
+**** DONE Minibuffer History
+
+     'M-p' : move to previous item in minibuffer history
+     'M-n' : move to next item in minibuffer history
+     'M-r regexp <ret>' : reverse search in minibuffer history
+     'M-s regexp <ret>' : move to future item matching regexp
+
+**** DONE Repetition
+
+     'C-x <ESC> <ESC>' : repeat previous command in minibuffer, can look up in history ('M-p'), <RET> to redo
+     'M-x list-command-history'
+
+**** DONE Passwords
+**** DONE Yes or No Prompts
+
+*** DONE M-x
+
+    All commands in emacs has name, command might have key binding.
+
+    'M-x command-name <ret>'
+
+*** TODO Help [0/10]
+**** TODO Help Summary
+**** TODO Key Help
+**** TODO Name Help
+**** TODO Apropos
+**** TODO Help Mode
+**** TODO Package Keywords
+**** TODO Language Help
+**** TODO Misc Help
+**** TODO Help Files
+**** TODO Help Echo
+
+** Important Text-Changing Commands [0/7]
+*** TODO Mark
+*** TODO Killing
+*** TODO Registers
+*** TODO Display
+*** TODO Search
+*** TODO Fixit
+*** TODO Keyboard Macros
 
 * emacs lisp intro
-** Preface
-** List Processing
+** DONE Preface
+** TODO List Processing [0/11]
 *** TODO Lisp Lists
 *** TODO Run a Program
 *** TODO Making Errors
