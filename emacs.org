@@ -121,11 +121,26 @@
 
     'M-x command-name <ret>'
 
-*** TODO Help [0/10]
-**** TODO Help Summary
-**** TODO Key Help
-**** TODO Name Help
-**** TODO Apropos
+*** TODO Help [4/10]
+**** DONE Help Summary
+**** DONE Key Help
+     
+     'C-h c KEY' : what does key mean
+     'C-h k KEY' : more info in help buffer
+     'C-h K KEY' : open manual for key's command
+     'C-h w COMMAND' : what key for that command
+
+**** DONE Name Help
+
+     'C-h f FUNCTION' : work for command and lisp function, also can check function name correctness
+     'C-h v VARIABLE'
+     'C-h F FUNCTION' : open document in manual for function
+
+**** DONE Apropos
+
+     'C-h a' : search for command
+     'M-x apropos' : search function and variables
+
 **** TODO Help Mode
 **** TODO Package Keywords
 **** TODO Language Help
