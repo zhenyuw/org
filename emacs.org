@@ -17,7 +17,7 @@
 *** DONE Entering Emacs
 *** DONE Exiting
 
-** Fundamental Editing Commands [3/5]
+** Fundamental Editing Commands [4/4]
 *** DONE Basic [11/11]
 **** DONE Inserting Text
 
@@ -121,7 +121,7 @@
 
     'M-x command-name <ret>'
 
-*** TODO Help [4/10]
+*** DONE Help [10/10]
 **** DONE Help Summary
 **** DONE Key Help
      
@@ -141,21 +141,44 @@
      'C-h a' : search for command
      'M-x apropos' : search function and variables
 
-**** TODO Help Mode
-**** TODO Package Keywords
-**** TODO Language Help
-**** TODO Misc Help
-**** TODO Help Files
-**** TODO Help Echo
+**** DONE Help Mode
+**** DONE Package Keywords
+
+     'C-h p' : search keyword for package
+     'C-h P' : search package name
+
+**** DONE Language Help
+**** DONE Misc Help
+
+     'C-h l' : last key inputs
+     'C-h e' : display *Message*
+     'C-h m" : display help on current major mode
+
+**** DONE Help Files
+
+     'C-h C-n' : display emacs news
+
+**** DONE Help Echo
+
+     'C-h .' : display local help
 
 ** Important Text-Changing Commands [0/7]
 *** TODO Mark
+
 *** TODO Killing
 *** TODO Registers
 *** TODO Display
 *** TODO Search
 *** TODO Fixit
 *** TODO Keyboard Macros
+
+** Major Structures of Emacs [0/5]
+*** TODO Files [/]
+*** TODO Buffers [/]
+*** TODO Windows [/]
+*** TODO Frames [/]
+*** TODO International [/]
+
 
 * emacs lisp intro
 ** DONE Preface
