@@ -1,0 +1,17 @@
+
+Solid reading on fundamental topics 
+
+* algorithm
+** Introduction to Algorithm
+** Books on programming contest
+*** Liu Ru jia's book
+*** Japan's codejam book
+
+* computer architecture / operating system / linker & loader
+** IA manual
+** Linux kernel
+*** professional linux kernel
+** linker & loader
+*** Chinese book too
+
+* network
