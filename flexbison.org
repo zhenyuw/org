@@ -1,0 +1,61 @@
+
+"flex and bison" book
+
+* version used in book:
+  
+  flex 2.5.35
+  bison 2.4.1
+
+  obviously something has changed for recent version that book's
+  example fails to build.
+
+* Chapter 1
+** flex structure
+
+   /* first section: declaration or options */
+   %{
+   /* this secion is copied verbatim in generated C file
+   %}
+
+   %%
+   /* second section: pattern match and action */
+   /* pattern _must_ start from line beginning */
+   /* pattern prefer longer match, and prefer pattern appears first in flex program */
+   xxx { /* action */}
+
+   /* 'yytext' points to current matched pattern string */
+   
+
+   %%
+
+   /* C code and functions, e.g */
+
+   main() { yylex(); }
+
+** "The Scanner as Coroutine"
+
+   If action code returns, scanning resumes on the next call to
+   yylex() ; if it doesn’t return, scanning resumes immediately.
+
+** context-free grammar - BNF
+
+** bison structure (mostly same as flex)
+
+   /* first: declaration */
+   %{
+   /* verbatim */
+   %}
+
+   %token xxx
+
+   %%
+
+   /* second: rules */
+
+   %%
+
+   /* third: C code, e.g */
+   main(int argc, char **argv) { yyparse(); }
+
+
+* Chapter 2 flex
